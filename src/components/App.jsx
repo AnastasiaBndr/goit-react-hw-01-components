@@ -46,6 +46,9 @@ App.propTypes = {
   location: PropTypes.string,
   avatar: PropTypes.string,
   stats: PropTypes.object,
+  data: PropTypes.object,
+  friends: PropTypes.object,
+  transactions: PropTypes.object,
 }
 
 
