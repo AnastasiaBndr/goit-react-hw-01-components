@@ -2,7 +2,8 @@ import css from './Statistics.module.css';
 
 export const Statistics = (props) => {
     return (<section className={css.statistics}>
-        <h2 className={css.title}>Upload stats</h2>
+        {props.title ? (<h2 className={css.title}>Upload stats</h2>) : ''}
+
 
         <ul className={css.statList}>
             {props.stats.map(prop => {
